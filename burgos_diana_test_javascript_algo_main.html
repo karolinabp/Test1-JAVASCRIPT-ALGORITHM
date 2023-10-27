@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Diana Karolina Burgos Parra" />
+		<link rel="stylesheet" href="css/styles.css"/>
+		<title>Test 1: JAVASCRIPT-ALGORITHM</title>
+        <script language="Javascript" src="javascript_test_je1.js"> </script>
+        <script language="Javascript" src="burgos_diana_test_javascript_algo_ex1.js"> </script>
+        <script language="Javascript" src="burgos_diana_test_javascript_algo_ex2.js"> </script>
+        <script language="Javascript" src="burgos_diana_test_javascript_algo_ex3.js"> </script>
+
+	</head>
+
+    <body>
+
+        <script>
+            //I use setTimeout because the program failed in the navegator
+            setTimeout(function() {
+                readAndTransfer();
+                displayTable();
+            }, 500);
+
+            setTimeout(function() {
+                verifyRow(to_verify)
+                verifyColumn(to_verify);
+                verifyRegion(to_verify);
+            }, 600);
+            setTimeout(function() {
+                checkContainers();
+            }, 700);
+
+        </script>
+
+        <div id="sudoku">
+        </div>
+        <div id="result">
+            <div id="rowResults"></div>
+            <div id="columnResults"></div>
+            <div id="regionResults"></div>
+        </div>
+
+    </body>
+
+</html>
